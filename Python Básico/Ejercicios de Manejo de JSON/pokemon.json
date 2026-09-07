@@ -1,0 +1,1207 @@
+[
+    {
+        "name": "Pikachu",
+        "type": "Electric",
+        "level": 54,
+        "weight_kg": 6.0,
+        "is_shiny": false,
+        "held_item": null,
+        "skills": [
+            "Thunder Shock",
+            "Quick Attack",
+            "Thunderbolt",
+            "Volt Tackle"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40,
+            "sp_attack": 50,
+            "sp_defense": 50,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Raichu",
+        "type": "Electric",
+        "level": 72,
+        "weight_kg": 30.0,
+        "is_shiny": false,
+        "held_item": "Magnet",
+        "skills": [
+            "Thunderbolt",
+            "Volt Tackle",
+            "Quick Attack",
+            "Iron Tail"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 90,
+            "defense": 55,
+            "sp_attack": 90,
+            "sp_defense": 80,
+            "speed": 110
+        }
+    },
+    {
+        "name": "Zekrom",
+        "type": "Electric",
+        "level": 95,
+        "weight_kg": 345.0,
+        "is_shiny": false,
+        "held_item": "Magnet",
+        "skills": [
+            "Bolt Strike",
+            "Dragon Claw",
+            "Crunch",
+            "Fusion Bolt"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 150,
+            "defense": 120,
+            "sp_attack": 120,
+            "sp_defense": 100,
+            "speed": 90
+        }
+    },
+
+    {
+        "name": "Charmander",
+        "type": "Fire",
+        "level": 8,
+        "weight_kg": 8.5,
+        "is_shiny": true,
+        "held_item": "Charcoal",
+        "skills": [
+            "Ember",
+            "Scratch",
+            "Tackle",
+            "Smokescreen"
+        ],
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43,
+            "sp_attack": 60,
+            "sp_defense": 50,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Charizard",
+        "type": "Fire",
+        "level": 72,
+        "weight_kg": 90.5,
+        "is_shiny": false,
+        "held_item": "Charcoal",
+        "skills": [
+            "Flamethrower",
+            "Dragon Claw",
+            "Air Slash",
+            "Fire Blast"
+        ],
+        "stats": {
+            "hp": 78,
+            "attack": 84,
+            "defense": 78,
+            "sp_attack": 109,
+            "sp_defense": 85,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Blaziken",
+        "type": "Fire",
+        "level": 85,
+        "weight_kg": 52.0,
+        "is_shiny": false,
+        "held_item": "Charcoal",
+        "skills": [
+            "Blaze Kick",
+            "Close Combat",
+            "Flare Blitz",
+            "Protect"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 120,
+            "defense": 70,
+            "sp_attack": 110,
+            "sp_defense": 70,
+            "speed": 80
+        }
+    },
+
+    {
+        "name": "Mewtwo",
+        "type": "Psychic",
+        "level": 100,
+        "weight_kg": 122.0,
+        "is_shiny": false,
+        "held_item": null,
+        "skills": [
+            "Psychic",
+            "Psystrike",
+            "Aura Sphere",
+            "Shadow Ball"
+        ],
+        "stats": {
+            "hp": 106,
+            "attack": 110,
+            "defense": 90,
+            "sp_attack": 154,
+            "sp_defense": 90,
+            "speed": 130
+        }
+    },
+    {
+        "name": "Alakazam",
+        "type": "Psychic",
+        "level": 84,
+        "weight_kg": 48.0,
+        "is_shiny": false,
+        "held_item": "Twisted Spoon",
+        "skills": [
+            "Psychic",
+            "Shadow Ball",
+            "Focus Blast",
+            "Calm Mind"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 50,
+            "defense": 45,
+            "sp_attack": 135,
+            "sp_defense": 95,
+            "speed": 120
+        }
+    },
+    {
+        "name": "Espeon",
+        "type": "Psychic",
+        "level": 80,
+        "weight_kg": 26.5,
+        "is_shiny": false,
+        "held_item": "Twisted Spoon",
+        "skills": [
+            "Psychic",
+            "Psybeam",
+            "Shadow Ball",
+            "Calm Mind"
+        ],
+        "stats": {
+            "hp": 65,
+            "attack": 65,
+            "defense": 60,
+            "sp_attack": 130,
+            "sp_defense": 95,
+            "speed": 110
+        }
+    },
+
+    {
+        "name": "Garchomp",
+        "type": "Dragon",
+        "level": 85,
+        "weight_kg": 95.0,
+        "is_shiny": false,
+        "held_item": "Dragon Fang",
+        "skills": [
+            "Dragon Claw",
+            "Earthquake",
+            "Stone Edge",
+            "Swords Dance"
+        ],
+        "stats": {
+            "hp": 108,
+            "attack": 130,
+            "defense": 95,
+            "sp_attack": 80,
+            "sp_defense": 85,
+            "speed": 102
+        }
+    },
+    {
+        "name": "Dragonite",
+        "type": "Dragon",
+        "level": 88,
+        "weight_kg": 210.0,
+        "is_shiny": false,
+        "held_item": "Dragon Fang",
+        "skills": [
+            "Dragon Claw",
+            "Hurricane",
+            "Earthquake",
+            "Dragon Dance"
+        ],
+        "stats": {
+            "hp": 91,
+            "attack": 134,
+            "defense": 95,
+            "sp_attack": 100,
+            "sp_defense": 100,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Rayquaza",
+        "type": "Dragon",
+        "level": 100,
+        "weight_kg": 206.5,
+        "is_shiny": false,
+        "held_item": "Dragon Fang",
+        "skills": [
+            "Dragon Ascent",
+            "Outrage",
+            "Earthquake",
+            "Extreme Speed"
+        ],
+        "stats": {
+            "hp": 105,
+            "attack": 150,
+            "defense": 90,
+            "sp_attack": 150,
+            "sp_defense": 90,
+            "speed": 95
+        }
+    },
+
+    {
+        "name": "Gengar",
+        "type": "Ghost",
+        "level": 67,
+        "weight_kg": 40.5,
+        "is_shiny": true,
+        "held_item": "Spell Tag",
+        "skills": [
+            "Shadow Ball",
+            "Sludge Bomb",
+            "Dark Pulse",
+            "Hypnosis"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60,
+            "sp_attack": 130,
+            "sp_defense": 75,
+            "speed": 110
+        }
+    },
+    {
+        "name": "Dragapult",
+        "type": "Ghost",
+        "level": 91,
+        "weight_kg": 50.0,
+        "is_shiny": false,
+        "held_item": "Spell Tag",
+        "skills": [
+            "Phantom Force",
+            "Dragon Darts",
+            "U-turn",
+            "Shadow Ball"
+        ],
+        "stats": {
+            "hp": 88,
+            "attack": 120,
+            "defense": 75,
+            "sp_attack": 100,
+            "sp_defense": 75,
+            "speed": 142
+        }
+    },
+    {
+        "name": "Chandelure",
+        "type": "Ghost",
+        "level": 80,
+        "weight_kg": 34.3,
+        "is_shiny": false,
+        "held_item": "Spell Tag",
+        "skills": [
+            "Shadow Ball",
+            "Flamethrower",
+            "Energy Ball",
+            "Will-O-Wisp"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 55,
+            "defense": 90,
+            "sp_attack": 145,
+            "sp_defense": 90,
+            "speed": 80
+        }
+    },
+
+    {
+        "name": "Snorlax",
+        "type": "Normal",
+        "level": 70,
+        "weight_kg": 460.0,
+        "is_shiny": false,
+        "held_item": "Leftovers",
+        "skills": [
+            "Body Slam",
+            "Rest",
+            "Crunch",
+            "Earthquake"
+        ],
+        "stats": {
+            "hp": 160,
+            "attack": 110,
+            "defense": 65,
+            "sp_attack": 65,
+            "sp_defense": 110,
+            "speed": 30
+        }
+    },
+    {
+        "name": "Slaking",
+        "type": "Normal",
+        "level": 75,
+        "weight_kg": 130.5,
+        "is_shiny": false,
+        "held_item": null,
+        "skills": [
+            "Facade",
+            "Earthquake",
+            "Slack Off",
+            "Shadow Claw"
+        ],
+        "stats": {
+            "hp": 150,
+            "attack": 160,
+            "defense": 100,
+            "sp_attack": 95,
+            "sp_defense": 65,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Arceus",
+        "type": "Normal",
+        "level": 100,
+        "weight_kg": 320.0,
+        "is_shiny": false,
+        "held_item": "Silk Scarf",
+        "skills": [
+            "Judgment",
+            "Recover",
+            "Earth Power",
+            "Shadow Claw"
+        ],
+        "stats": {
+            "hp": 120,
+            "attack": 120,
+            "defense": 120,
+            "sp_attack": 120,
+            "sp_defense": 120,
+            "speed": 120
+        }
+    },
+
+    {
+        "name": "Gyarados",
+        "type": "Water",
+        "level": 78,
+        "weight_kg": 235.0,
+        "is_shiny": false,
+        "held_item": "Mystic Water",
+        "skills": [
+            "Waterfall",
+            "Dragon Dance",
+            "Crunch",
+            "Ice Fang"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 125,
+            "defense": 79,
+            "sp_attack": 60,
+            "sp_defense": 100,
+            "speed": 81
+        }
+    },
+    {
+        "name": "Greninja",
+        "type": "Water",
+        "level": 82,
+        "weight_kg": 40.0,
+        "is_shiny": false,
+        "held_item": "Mystic Water",
+        "skills": [
+            "Water Shuriken",
+            "Dark Pulse",
+            "Ice Beam",
+            "U-turn"
+        ],
+        "stats": {
+            "hp": 72,
+            "attack": 95,
+            "defense": 67,
+            "sp_attack": 103,
+            "sp_defense": 71,
+            "speed": 122
+        }
+    },
+    {
+        "name": "Swampert",
+        "type": "Water",
+        "level": 76,
+        "weight_kg": 81.9,
+        "is_shiny": false,
+        "held_item": "Soft Sand",
+        "skills": [
+            "Surf",
+            "Earthquake",
+            "Ice Punch",
+            "Protect"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 110,
+            "defense": 90,
+            "sp_attack": 85,
+            "sp_defense": 90,
+            "speed": 60
+        }
+    },
+
+    {
+        "name": "Venusaur",
+        "type": "Grass",
+        "level": 75,
+        "weight_kg": 100.0,
+        "is_shiny": false,
+        "held_item": "Miracle Seed",
+        "skills": [
+            "Solar Beam",
+            "Sludge Bomb",
+            "Sleep Powder",
+            "Synthesis"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 82,
+            "defense": 83,
+            "sp_attack": 100,
+            "sp_defense": 100,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Sceptile",
+        "type": "Grass",
+        "level": 79,
+        "weight_kg": 52.2,
+        "is_shiny": false,
+        "held_item": "Miracle Seed",
+        "skills": [
+            "Leaf Blade",
+            "Dragon Pulse",
+            "Giga Drain",
+            "Quick Attack"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 85,
+            "defense": 65,
+            "sp_attack": 105,
+            "sp_defense": 85,
+            "speed": 120
+        }
+    },
+    {
+        "name": "Rillaboom",
+        "type": "Grass",
+        "level": 83,
+        "weight_kg": 90.0,
+        "is_shiny": false,
+        "held_item": "Miracle Seed",
+        "skills": [
+            "Drum Beating",
+            "Wood Hammer",
+            "High Horsepower",
+            "Knock Off"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 125,
+            "defense": 90,
+            "sp_attack": 60,
+            "sp_defense": 70,
+            "speed": 85
+        }
+    },
+
+    {
+        "name": "Lapras",
+        "type": "Ice",
+        "level": 70,
+        "weight_kg": 220.0,
+        "is_shiny": false,
+        "held_item": "Never-Melt Ice",
+        "skills": [
+            "Ice Beam",
+            "Surf",
+            "Thunderbolt",
+            "Psychic"
+        ],
+        "stats": {
+            "hp": 130,
+            "attack": 85,
+            "defense": 80,
+            "sp_attack": 85,
+            "sp_defense": 95,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Weavile",
+        "type": "Ice",
+        "level": 82,
+        "weight_kg": 34.0,
+        "is_shiny": false,
+        "held_item": "Never-Melt Ice",
+        "skills": [
+            "Ice Punch",
+            "Night Slash",
+            "Low Kick",
+            "Swords Dance"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 120,
+            "defense": 65,
+            "sp_attack": 45,
+            "sp_defense": 85,
+            "speed": 125
+        }
+    },
+    {
+        "name": "Mamoswine",
+        "type": "Ice",
+        "level": 84,
+        "weight_kg": 291.0,
+        "is_shiny": false,
+        "held_item": "Never-Melt Ice",
+        "skills": [
+            "Icicle Crash",
+            "Earthquake",
+            "Ice Shard",
+            "Stone Edge"
+        ],
+        "stats": {
+            "hp": 110,
+            "attack": 130,
+            "defense": 80,
+            "sp_attack": 70,
+            "sp_defense": 60,
+            "speed": 80
+        }
+    },
+
+    {
+        "name": "Lucario",
+        "type": "Fighting",
+        "level": 80,
+        "weight_kg": 54.0,
+        "is_shiny": false,
+        "held_item": "Black Belt",
+        "skills": [
+            "Aura Sphere",
+            "Close Combat",
+            "Flash Cannon",
+            "Extreme Speed"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 110,
+            "defense": 70,
+            "sp_attack": 115,
+            "sp_defense": 70,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Machamp",
+        "type": "Fighting",
+        "level": 78,
+        "weight_kg": 130.0,
+        "is_shiny": false,
+        "held_item": "Black Belt",
+        "skills": [
+            "Dynamic Punch",
+            "Close Combat",
+            "Rock Slide",
+            "Bullet Punch"
+        ],
+        "stats": {
+            "hp": 90,
+            "attack": 130,
+            "defense": 80,
+            "sp_attack": 65,
+            "sp_defense": 85,
+            "speed": 55
+        }
+    },
+    {
+        "name": "Conkeldurr",
+        "type": "Fighting",
+        "level": 77,
+        "weight_kg": 87.0,
+        "is_shiny": false,
+        "held_item": "Flame Orb",
+        "skills": [
+            "Drain Punch",
+            "Mach Punch",
+            "Facade",
+            "Stone Edge"
+        ],
+        "stats": {
+            "hp": 105,
+            "attack": 140,
+            "defense": 95,
+            "sp_attack": 55,
+            "sp_defense": 65,
+            "speed": 45
+        }
+    },
+
+    {
+        "name": "Nidoking",
+        "type": "Poison",
+        "level": 76,
+        "weight_kg": 62.0,
+        "is_shiny": false,
+        "held_item": "Poison Barb",
+        "skills": [
+            "Sludge Wave",
+            "Earth Power",
+            "Thunderbolt",
+            "Ice Beam"
+        ],
+        "stats": {
+            "hp": 81,
+            "attack": 102,
+            "defense": 77,
+            "sp_attack": 85,
+            "sp_defense": 75,
+            "speed": 85
+        }
+    },
+    {
+        "name": "Crobat",
+        "type": "Poison",
+        "level": 79,
+        "weight_kg": 75.0,
+        "is_shiny": false,
+        "held_item": "Black Sludge",
+        "skills": [
+            "Cross Poison",
+            "Brave Bird",
+            "U-turn",
+            "Roost"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 90,
+            "defense": 80,
+            "sp_attack": 70,
+            "sp_defense": 80,
+            "speed": 130
+        }
+    },
+    {
+        "name": "Toxapex",
+        "type": "Poison",
+        "level": 81,
+        "weight_kg": 14.5,
+        "is_shiny": false,
+        "held_item": "Black Sludge",
+        "skills": [
+            "Toxic",
+            "Recover",
+            "Scald",
+            "Baneful Bunker"
+        ],
+        "stats": {
+            "hp": 50,
+            "attack": 63,
+            "defense": 152,
+            "sp_attack": 53,
+            "sp_defense": 142,
+            "speed": 35
+        }
+    },
+
+    {
+        "name": "Groudon",
+        "type": "Ground",
+        "level": 100,
+        "weight_kg": 950.0,
+        "is_shiny": false,
+        "held_item": "Red Orb",
+        "skills": [
+            "Precipice Blades",
+            "Earthquake",
+            "Stone Edge",
+            "Fire Punch"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 150,
+            "defense": 140,
+            "sp_attack": 100,
+            "sp_defense": 90,
+            "speed": 90
+        }
+    },
+    {
+        "name": "Excadrill",
+        "type": "Ground",
+        "level": 82,
+        "weight_kg": 40.4,
+        "is_shiny": false,
+        "held_item": "Soft Sand",
+        "skills": [
+            "Earthquake",
+            "Iron Head",
+            "Rock Slide",
+            "Swords Dance"
+        ],
+        "stats": {
+            "hp": 110,
+            "attack": 135,
+            "defense": 60,
+            "sp_attack": 50,
+            "sp_defense": 65,
+            "speed": 88
+        }
+    },
+    {
+        "name": "Rhyperior",
+        "type": "Ground",
+        "level": 84,
+        "weight_kg": 282.8,
+        "is_shiny": false,
+        "held_item": "Soft Sand",
+        "skills": [
+            "Earthquake",
+            "Rock Wrecker",
+            "Megahorn",
+            "Stone Edge"
+        ],
+        "stats": {
+            "hp": 115,
+            "attack": 140,
+            "defense": 130,
+            "sp_attack": 55,
+            "sp_defense": 55,
+            "speed": 40
+        }
+    },
+
+    {
+        "name": "Corviknight",
+        "type": "Flying",
+        "level": 80,
+        "weight_kg": 75.0,
+        "is_shiny": false,
+        "held_item": "Sharp Beak",
+        "skills": [
+            "Brave Bird",
+            "Iron Head",
+            "Roost",
+            "Body Press"
+        ],
+        "stats": {
+            "hp": 98,
+            "attack": 87,
+            "defense": 105,
+            "sp_attack": 53,
+            "sp_defense": 85,
+            "speed": 67
+        }
+    },
+    {
+        "name": "Staraptor",
+        "type": "Flying",
+        "level": 74,
+        "weight_kg": 24.9,
+        "is_shiny": false,
+        "held_item": "Sharp Beak",
+        "skills": [
+            "Brave Bird",
+            "Close Combat",
+            "Double-Edge",
+            "U-turn"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 120,
+            "defense": 70,
+            "sp_attack": 50,
+            "sp_defense": 60,
+            "speed": 100
+        }
+    },
+    {
+        "name": "Talonflame",
+        "type": "Flying",
+        "level": 77,
+        "weight_kg": 24.5,
+        "is_shiny": false,
+        "held_item": "Sharp Beak",
+        "skills": [
+            "Brave Bird",
+            "Flare Blitz",
+            "Roost",
+            "U-turn"
+        ],
+        "stats": {
+            "hp": 78,
+            "attack": 81,
+            "defense": 71,
+            "sp_attack": 74,
+            "sp_defense": 69,
+            "speed": 126
+        }
+    },
+
+    {
+        "name": "Scizor",
+        "type": "Bug",
+        "level": 82,
+        "weight_kg": 118.0,
+        "is_shiny": false,
+        "held_item": "Metal Coat",
+        "skills": [
+            "Bullet Punch",
+            "X-Scissor",
+            "Swords Dance",
+            "U-turn"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 130,
+            "defense": 100,
+            "sp_attack": 55,
+            "sp_defense": 80,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Heracross",
+        "type": "Bug",
+        "level": 78,
+        "weight_kg": 54.0,
+        "is_shiny": false,
+        "held_item": "Silver Powder",
+        "skills": [
+            "Megahorn",
+            "Close Combat",
+            "Stone Edge",
+            "Swords Dance"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 125,
+            "defense": 75,
+            "sp_attack": 40,
+            "sp_defense": 95,
+            "speed": 85
+        }
+    },
+    {
+        "name": "Genesect",
+        "type": "Bug",
+        "level": 95,
+        "weight_kg": 82.5,
+        "is_shiny": false,
+        "held_item": "Metal Coat",
+        "skills": [
+            "Techno Blast",
+            "X-Scissor",
+            "Iron Head",
+            "Flamethrower"
+        ],
+        "stats": {
+            "hp": 71,
+            "attack": 120,
+            "defense": 95,
+            "sp_attack": 120,
+            "sp_defense": 95,
+            "speed": 99
+        }
+    },
+
+    {
+        "name": "Tyranitar",
+        "type": "Rock",
+        "level": 88,
+        "weight_kg": 202.0,
+        "is_shiny": false,
+        "held_item": "Hard Stone",
+        "skills": [
+            "Stone Edge",
+            "Crunch",
+            "Earthquake",
+            "Dragon Dance"
+        ],
+        "stats": {
+            "hp": 100,
+            "attack": 134,
+            "defense": 110,
+            "sp_attack": 95,
+            "sp_defense": 100,
+            "speed": 61
+        }
+    },
+    {
+        "name": "Rhyperior",
+        "type": "Rock",
+        "level": 84,
+        "weight_kg": 282.8,
+        "is_shiny": false,
+        "held_item": "Hard Stone",
+        "skills": [
+            "Rock Wrecker",
+            "Earthquake",
+            "Megahorn",
+            "Stone Edge"
+        ],
+        "stats": {
+            "hp": 115,
+            "attack": 140,
+            "defense": 130,
+            "sp_attack": 55,
+            "sp_defense": 55,
+            "speed": 40
+        }
+    },
+    {
+        "name": "Lycanroc",
+        "type": "Rock",
+        "level": 76,
+        "weight_kg": 25.0,
+        "is_shiny": false,
+        "held_item": "Hard Stone",
+        "skills": [
+            "Stone Edge",
+            "Accelerock",
+            "Crunch",
+            "Swords Dance"
+        ],
+        "stats": {
+            "hp": 75,
+            "attack": 115,
+            "defense": 65,
+            "sp_attack": 55,
+            "sp_defense": 65,
+            "speed": 112
+        }
+    },
+
+    {
+        "name": "Darkrai",
+        "type": "Dark",
+        "level": 96,
+        "weight_kg": 50.5,
+        "is_shiny": false,
+        "held_item": "Black Glasses",
+        "skills": [
+            "Dark Void",
+            "Dark Pulse",
+            "Nasty Plot",
+            "Focus Blast"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 90,
+            "defense": 90,
+            "sp_attack": 135,
+            "sp_defense": 90,
+            "speed": 125
+        }
+    },
+    {
+        "name": "Umbreon",
+        "type": "Dark",
+        "level": 80,
+        "weight_kg": 27.0,
+        "is_shiny": false,
+        "held_item": "Black Glasses",
+        "skills": [
+            "Foul Play",
+            "Moonlight",
+            "Toxic",
+            "Protect"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 65,
+            "defense": 110,
+            "sp_attack": 60,
+            "sp_defense": 130,
+            "speed": 65
+        }
+    },
+    {
+        "name": "Zoroark",
+        "type": "Dark",
+        "level": 82,
+        "weight_kg": 81.1,
+        "is_shiny": false,
+        "held_item": "Black Glasses",
+        "skills": [
+            "Night Daze",
+            "Flamethrower",
+            "Focus Blast",
+            "Nasty Plot"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 105,
+            "defense": 60,
+            "sp_attack": 120,
+            "sp_defense": 60,
+            "speed": 105
+        }
+    },
+
+    {
+        "name": "Metagross",
+        "type": "Steel",
+        "level": 90,
+        "weight_kg": 550.0,
+        "is_shiny": false,
+        "held_item": "Metal Coat",
+        "skills": [
+            "Meteor Mash",
+            "Zen Headbutt",
+            "Earthquake",
+            "Bullet Punch"
+        ],
+        "stats": {
+            "hp": 80,
+            "attack": 135,
+            "defense": 130,
+            "sp_attack": 95,
+            "sp_defense": 90,
+            "speed": 70
+        }
+    },
+    {
+        "name": "Aegislash",
+        "type": "Steel",
+        "level": 84,
+        "weight_kg": 53.0,
+        "is_shiny": false,
+        "held_item": "Metal Coat",
+        "skills": [
+            "King's Shield",
+            "Shadow Sneak",
+            "Sacred Sword",
+            "Iron Head"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 50,
+            "defense": 140,
+            "sp_attack": 50,
+            "sp_defense": 140,
+            "speed": 60
+        }
+    },
+    {
+        "name": "Scizor",
+        "type": "Steel",
+        "level": 82,
+        "weight_kg": 118.0,
+        "is_shiny": false,
+        "held_item": "Metal Coat",
+        "skills": [
+            "Bullet Punch",
+            "X-Scissor",
+            "Swords Dance",
+            "U-turn"
+        ],
+        "stats": {
+            "hp": 70,
+            "attack": 130,
+            "defense": 100,
+            "sp_attack": 55,
+            "sp_defense": 80,
+            "speed": 65
+        }
+    },
+
+    {
+        "name": "Gardevoir",
+        "type": "Fairy",
+        "level": 83,
+        "weight_kg": 48.4,
+        "is_shiny": false,
+        "held_item": "Pixie Plate",
+        "skills": [
+            "Moonblast",
+            "Psychic",
+            "Calm Mind",
+            "Shadow Ball"
+        ],
+        "stats": {
+            "hp": 68,
+            "attack": 65,
+            "defense": 65,
+            "sp_attack": 125,
+            "sp_defense": 115,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Togekiss",
+        "type": "Fairy",
+        "level": 81,
+        "weight_kg": 38.0,
+        "is_shiny": false,
+        "held_item": "Pixie Plate",
+        "skills": [
+            "Air Slash",
+            "Moonblast",
+            "Aura Sphere",
+            "Thunder Wave"
+        ],
+        "stats": {
+            "hp": 85,
+            "attack": 50,
+            "defense": 95,
+            "sp_attack": 120,
+            "sp_defense": 115,
+            "speed": 80
+        }
+    },
+    {
+        "name": "Sylveon",
+        "type": "Fairy",
+        "level": 79,
+        "weight_kg": 23.5,
+        "is_shiny": false,
+        "held_item": "Pixie Plate",
+        "skills": [
+            "Moonblast",
+            "Hyper Voice",
+            "Mystical Fire",
+            "Calm Mind"
+        ],
+        "stats": {
+            "hp": 95,
+            "attack": 65,
+            "defense": 65,
+            "sp_attack": 110,
+            "sp_defense": 130,
+            "speed": 60
+        }
+    }
+]
