@@ -1,7 +1,4 @@
-from data import create_csv_file, find_student, get_failing_students, read_csv_file
-
-
-def add_new_student():
+def add_new_student(students_list):
     while True:
         try:
             amount = int(input("\nEnter the number of students: "))
@@ -11,15 +8,12 @@ def add_new_student():
             break
         except ValueError:
             print("Please enter a valid number.")
-    my_students = []
     for n in range(1, amount + 1):
         while True:
             print(f"\nEnter the student {n}: ")
             full_name = get_valid_name()
             section = get_valid_section()
-            registered_students = read_csv_file("my_students.csv")
-            registered_students.extend(my_students)
-            if find_student(registered_students, full_name, section):
+            if find_student(students_list, full_name, section):              
                 print("This student is already registered in this section.")
                 continue
             break
@@ -32,8 +26,8 @@ def add_new_student():
             "Social grade": social_grade,
             "Science grade": science_grade
         }
-        my_students.append(new_student)
-    return my_students
+        students_list.append(new_student)
+    return students_list
 
 
 def get_valid_name():
@@ -102,8 +96,8 @@ def calculate_average(student):
     average = total / len(grades)
     return round(average, 2)
 
-def get_top_three_students(path):
-    students_list = read_csv_file(path)
+def get_top_three_students(students_list):
+    students_list = students_list.copy()
     students_list.sort(key=calculate_average, reverse=True)
     top_three = students_list[:3]
     return top_three
@@ -119,11 +113,13 @@ def read_top_three(top_three):
         print(f"Average: {calculate_average(student):.2f}")
         print()
 
-def read_all_students_average(path):
-    students_list = read_csv_file(path)
+def read_all_students_average(students_list):
     if not students_list:
         print("\nNo students found to show averages.")
         return
+    averages = [calculate_average(student) for student in students_list]
+    general_average = sum(averages) / len(averages)
+    print(f"\nGENERAL AVERAGE: {general_average:.2f}")
     print("\nAVERAGE OF ALL STUDENTS:")
     for student in students_list:
         average = calculate_average(student)
@@ -132,8 +128,7 @@ def read_all_students_average(path):
         print(f"Average: {average:.2f}")
         print()
 
-def delete_student(path):
-    students_list = read_csv_file(path)
+def delete_student(students_list):
     if not students_list:
         print("\nNo students found to delete.")
         return
@@ -149,13 +144,12 @@ def delete_student(path):
         "Are you sure you want to delete this student? (y/n): ").strip().lower()
     if confirmation == "y":
         students_list.remove(student)
-        create_csv_file(students_list, path)
         print(f"\nStudent '{full_name}' deleted successfully.")
     else:
         print("\nDeletion cancelled.")
-        
-def show_failing_students(path):
-    failing_students = get_failing_students(path)
+
+def show_failing_students(students_list):
+    failing_students = get_failing_students(students_list)
     if not failing_students:
         return
     grades = [
@@ -173,3 +167,39 @@ def show_failing_students(path):
             if float(student[grade]) < 60:
                 print(f"{grade}: {student[grade]}")
         print()
+
+def show_csv_file(students_list):
+    if not students_list:
+        print("\nNo students found to show.")
+        return
+    print("\nSTUDENT'S LIST:")
+    for student in students_list:
+        for key, value in student.items():
+            print(f"{key}: {value}")
+        print()
+
+def find_student(students_list, full_name, section):
+    for student in students_list:
+        if (student['Full name'].lower() == full_name.lower() and student['Section'].lower() == section.lower()):
+            return student
+    return None
+
+def get_failing_students(students_list):
+    if not students_list:
+        print("\nNo failing students found.")
+        return []
+    grades = [
+        "Spanish grade",
+        "English grade",
+        "Social grade",
+        "Science grade"
+    ]
+    failing_students = []
+    for student in students_list:
+        for grade in grades:
+            if float(student[grade]) < 60:
+                failing_students.append(student)
+                break
+    if not failing_students:
+        print("\nNo failing students found.")
+    return failing_students
