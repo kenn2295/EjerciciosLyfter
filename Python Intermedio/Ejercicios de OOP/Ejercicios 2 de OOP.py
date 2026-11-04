@@ -6,6 +6,9 @@ class Bus:
     def add_passenger(self, passenger):
         if len(self.passengers) < self.max_passengers:
             self.passengers.append(passenger)
+        else:
+            print("The bus is full. Cannot add more passengers.") 
+            return False
     
     def remove_passenger(self, passengers):
         if passengers in self.passengers:
@@ -16,7 +19,7 @@ class Person:
 
 my_bus = Bus()
 
-def bus_route(my_bus,passenger):
+def bus_route(my_bus):
     while True:
         print("\nBUS MENU")
         print("1. Add passengers")
@@ -30,9 +33,8 @@ def bus_route(my_bus,passenger):
             if len(my_bus.passengers) < my_bus.max_passengers:
                 amount = int(input("How many passengers are boarding? "))
                 for i in range(amount):
-                    my_bus.add_passenger(Person())
-            else:
-                print("Bus is full. You cannot add more passengers.")
+                    if my_bus.add_passenger(Person()) == False:
+                        break
 
         elif option == "2":
             amount = int(input("How many passengers are getting off? "))
@@ -52,10 +54,10 @@ def bus_route(my_bus,passenger):
             print("Invalid option. Try again.")
     
 
-bus_route(my_bus,Person())
+bus_route(my_bus)
 
 # If the number of passengers requested exceeds the available capacity,
 # only the passengers who fit on the bus will be added.
 # The system should notify the user if some passengers cannot board.
-# This improvement is left for later becadye due to the current implementation
+# This improvement is left for later due to the current implementation
 # meets the assignment requirements.
