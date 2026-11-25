@@ -1,1 +1,1 @@
-Este es un mensaje de prueba 
+Este es un mensaje de prueba para la rama fix-errores-menores
